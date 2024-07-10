@@ -8,7 +8,7 @@ import javax.swing.*;  // Swing.
  * The FormGui class provides the Graphical User Interface (GUI) for the form window.
  * 
  * By Luke Stanbridge
- * v1.0 June 2024
+ * v0.1 July 2024
  */
 public class FormGui implements ActionListener {
 

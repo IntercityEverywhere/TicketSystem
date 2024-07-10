@@ -4,7 +4,7 @@ import java.util.ArrayList; // Import ArrayList.
  * The Database class stores Ticket objects in an ArrayList.
  * 
  * By Luke Stanbridge
- * v1.0 June 2024
+ * v0.1 July 2024
  */
 public class Database {
 

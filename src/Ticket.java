@@ -1,10 +1,10 @@
 /**
- * The Ticket class holds details of a tech support job
- * including an ID number, User Name, Email, Phone Number,
- * Description, and Title.
+ * The Ticket class holds details of a task in an electronic
+ * "ticket", with fields for an ID number, User Name, Email,
+ * Phone Number, Description, and Title.
  * 
  * By Luke Stanbridge
- * v1.0 June 2024
+ * v0.1 July 2024
  */
 public class Ticket {
 
