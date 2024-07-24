@@ -4,7 +4,7 @@
  * Phone Number, Description, and Title.
  * 
  * By Luke Stanbridge
- * v0.1 July 2024
+ * v0.2 July 2024
  */
 public class Ticket {
 
@@ -14,18 +14,21 @@ public class Ticket {
     private String name; // Name of a user.
     private String email; // User's email.
     private long phoneNo; // User's phone number.
+    private String category; // The category of the ticket.
     private String description; // Description of the job.
     private String title; // Title for the ticket.
+
 
     /**
      * Constructor for objects of class Ticket.
      */
-    public Ticket(String theName, String theEmail, long thePhoneNo, String theDescription, String theTitle)
+    public Ticket(String theName, String theEmail, long thePhoneNo, String theCategory, String theDescription, String theTitle)
     {
         ticketID++;
         name = theName;
         email = theEmail;
         phoneNo = thePhoneNo;
+        category = theCategory;
         description = theDescription;
         title = theTitle;
     }
@@ -63,6 +66,14 @@ public class Ticket {
     }
 
     /**
+     * Returns the ticket category.
+     */
+    public String getCategory()
+    {
+        return category;
+    }
+
+    /**
      * Returns the description of the ticket.
      */
     public String getDescription()
@@ -87,6 +98,7 @@ public class Ticket {
         System.out.println("Name: "+name);
         System.out.println("Email: "+email);
         System.out.println("Phone Number: "+phoneNo);
+        System.out.println("Category: "+category);
         System.out.println("Title: "+title);
         System.out.println("Description: "+description);
     }
